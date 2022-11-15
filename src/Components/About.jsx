@@ -12,7 +12,7 @@ const About = () => {
         <p className=" text text-4xl font-bold inline border-b-4 border-gray-500 ">About</p>
         </div>
         <p className="text-xl mt-10 ">
-      Hello there! I’m a Website Designer & Developer living in Raipur,Chhattisgarh,India. Since my youngest age I have been passionate about design and art. I grew up with the Internet, and naturally took a path according to this passion. Web design is a way for me to keep track of all my passions. See ya!
+      Hello there! I’m a Website Designer & Developer living in Raipur, Chhattisgarh, India. Since my youngest age I have been passionate about design and art. I grew up with the Internet, and naturally took a path according to this passion. Web design is a way for me to keep track of all my passions. See ya!
       </p>
       <br />
       <p className="text-xl ">
