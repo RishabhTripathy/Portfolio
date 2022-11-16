@@ -77,7 +77,7 @@ const Skills = () => {
           </p>
           <p className="py-8 md:py-16 ">These are the technologies I've worked with.</p>
         </div>
-        <div className=" w-full grid grid-cols-3 sm:grid-cols-3 items-baseline  gap-6 text-center py-6 px-6 sm:px-0  ">
+        <div className=" w-full grid grid-cols-3 sm:grid-cols-3   gap-6 text-center py-6 px-6 sm:px-0  ">
           
           
           
