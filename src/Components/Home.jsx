@@ -12,7 +12,7 @@ const Home = () => {
         <div className=" flex flex-col my-8 h-5/9 ">
           <h2 className="text-3xl sm:text-7xl text-white font-bold ">I'm a Frontend Developer</h2>
           <p className="text-gray-500 py-4 max-w-md ">
-            Trained Web Developer with 6 months of Training and development
+            Trained Web Developer with 8 months of Training and development
             experience along with fundamental knowledge of ServiceNow .Created
             various projects & tasks using my skillset. Looking forward to work
             with an enterprising team that can help me acquire an edge over the
