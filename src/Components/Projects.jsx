@@ -99,7 +99,7 @@ export default function Projects() {
               <h2 className="card-title">{item.title}</h2>
               <p className="text-sm">{item.desc}</p>
               <div className="card-actions justify-center mt-8">
-                <a href={item.lnk} target="_blank" rel="noopener" className="btn hover:scale-125 duration-300 btn-circle">View Now</a>
+                <a href={item.lnk} target="_blank" rel="noreferrer" className="btn hover:scale-125 duration-300 btn-circle">View Now</a>
               </div>
             </div>
           </div>
