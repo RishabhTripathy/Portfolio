@@ -13,7 +13,7 @@ export default function Projects() {
         img:p1,
         lnk:"https://rishabhtripathymusic.vercel.app/",
         title:"My Artist Profile",
-        desc:"Html, Css, Javascript, Next js, Tailwind css, Framer Motion etc"
+        desc:"Html, Css, Javascript, Next js, Type script, Tailwind css, Framer Motion etc"
     },
     {
         id:2,
