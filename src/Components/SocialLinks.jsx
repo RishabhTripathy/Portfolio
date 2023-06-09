@@ -13,7 +13,7 @@ const SocialLinks = () => {
           <FaLinkedin size={25} />
         </>
       ),
-      href: "https:linkedin.com/in/rish-you/",
+      href: "https://www.linkedin.com/in/rishabh-tripathy-5554331ba/",
       style: "rounded-tr-md",
     },
     {
