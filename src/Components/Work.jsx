@@ -39,9 +39,9 @@ export const Work = () => {
             className="flex flex-col tracking-widest  gap-2"
           >
             <span className="text-xl font-bold underline underline-offset-2">
-              Criss Cross Lab
+             Web Developer
             </span>
-            <span className="font font-semibold">Ducat Education</span>
+            <span className="font font-semibold"> Criss Cross Lab</span>
             <span className="text-slate-400 text-md">
               December 2022 - Present
             </span>
@@ -63,7 +63,7 @@ export const Work = () => {
             <span className="text-xl font-bold underline underline-offset-2">
               Internship Trainee
             </span>
-            <span className="font font-semibold">Ducat Education</span>
+            <span className="font font-semibold">Ducat </span>
             <span className="text-slate-400 text-md">
               May 2022 - December 2022 (7 months)
             </span>
