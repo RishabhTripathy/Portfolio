@@ -6,6 +6,7 @@ import p3 from "../images/project3.png"
 import p4 from "../images/project4.png"
 import p5 from "../images/project5.png"
 import p6 from "../images/project6.png"
+import p7 from "../images/project7.png"
 
 export default function Projects() {
     const project = [{
@@ -49,6 +50,13 @@ export default function Projects() {
         lnk:"https://theahomesmanali.com/",
         title:"The Thea Homes",
         desc:"Html, Css, Javascript, Next js, Tailwind css, AOS etc"
+    },
+    {
+      id: 7,
+      img: p7,
+      lnk: "https://gurugramplot.com/",
+      title: "The Gurugram Plot",
+      desc: "Html, Css, Javascript,NocoDb Next js, Tailwind css, AOS, NoCo Db, Api Integration etc",
     },
   ]
   return (
