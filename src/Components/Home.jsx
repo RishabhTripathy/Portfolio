@@ -35,7 +35,7 @@ const Home = () => {
             transition={{
               delay: 0.2,
             }}
-            className="text-3xl sm:text-7xl text-white font-bold "
+            className="text-3xl font-jost sm:text-7xl text-white font-bold "
           >
             I'm a Frontend Developer
           </motion.h2>
