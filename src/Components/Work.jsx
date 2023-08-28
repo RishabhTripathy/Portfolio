@@ -19,7 +19,7 @@ export const Work = () => {
             transition={{
               delay: 0.2,
             }}
-            className=" text text-4xl font-bold inline border-b-4 border-gray-500 "
+            className=" text font-jost text-4xl font-bold inline border-b-4 border-gray-500 "
           >
             Work Experience
           </motion.p>
