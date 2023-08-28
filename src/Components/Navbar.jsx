@@ -50,7 +50,7 @@ const Navbar = () => {
         {links.map(({ id, link }) => (
           <motion.li
             key={id}
-            className="px-4 cursor-pointer capitalize text-xl font-medium text-gray-500 "
+            className="px-4 font-jost cursor-pointer capitalize text-xl font-medium text-gray-500 "
             initial={{
               y: -50,
             }}
