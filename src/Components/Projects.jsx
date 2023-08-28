@@ -76,7 +76,7 @@ export default function Projects() {
             transition={{
               delay: 0.2,
             }}
-            className=" text text-4xl font-bold inline border-b-4 border-gray-500 "
+            className=" text text-4xl font-jost font-bold inline border-b-4 border-gray-500 "
           >
             Projects
           </motion.p>
@@ -104,7 +104,7 @@ export default function Projects() {
               />
             </figure>
             <div className="card-body ">
-              <h2 className="card-title">{item.title}</h2>
+              <h2 className="card-title font-jost">{item.title}</h2>
               <p className="text-sm">{item.desc}</p>
               <div className="card-actions justify-center mt-8">
                 <a href={item.lnk} target="_blank" rel="noreferrer" className="btn hover:scale-125 duration-300 btn-circle">View Now</a>
