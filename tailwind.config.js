@@ -6,12 +6,10 @@ module.exports = {
   theme: {
     extend: {},
 
-    fontFamily: {
-        sans: ["Poppins", "sans-serif"],
-        jost: ["Jost", "sans-serif"],
-
-        Montserrats: ["Montserrat", "sans-serif"],
-      },
+   fontFamily: {
+      signature:[ "Great Vibes"],
+     jost:  ['Jost','sans-serif'],
+    },
   },
   plugins: [require("daisyui")],
 }
