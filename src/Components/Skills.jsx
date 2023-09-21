@@ -11,6 +11,8 @@ import tc from "../images/tc.png";
 import nj from "../images/nj.png";
 import ts from "../images/ts.png";
 import sf from "../images/sf.png";
+import fm from "../images/Framer.png";
+import wix from "../images/wix.png";
 import { motion } from "framer-motion";
 const Skills = () => {
   const techs = [
@@ -45,7 +47,7 @@ const Skills = () => {
       style: "shadow-sky-400  ",
     },
     {
-      id: 6,
+      id:6,
       src: bs,
       title: "BootStrap",
       style: "shadow-purple-500 ",
@@ -72,7 +74,7 @@ const Skills = () => {
       id: 10,
       src: nj,
       title: "Next Js",
-      style: "shadow-purple-600 text-black font-bold bg-slate-400 ",
+      style: "shadow-purple-600 text-black font-bold bg-slate-100 ",
     },
     {
       id: 11,
@@ -86,6 +88,24 @@ const Skills = () => {
       title: "Shopify",
       style: "shadow-green-400  ",
     },
+    {
+      id: 13,
+      src: fm,
+      title: "Framer Motion",
+      style: "shadow-green-400 font-bold  text-black bg-slate-100 ",
+    },
+    {
+      id: 15,
+      src: wix,
+      title: "Wix",
+      style: "shadow-green-400 font-bold text-black bg-slate-100",
+    },
+    {
+      id: 14,
+      src: react,
+      title: "React Native",
+      style: "shadow-green-400 " ,
+    }
   ];
   return (
     <div
@@ -104,7 +124,7 @@ const Skills = () => {
             transition={{
               delay: 0.2,
             }}
-            className="text-4xl font-jost font-bold border-b-4 border-gray-500 p-2 inline "
+            className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline "
           >
             My Skills
           </motion.p>
@@ -116,10 +136,10 @@ const Skills = () => {
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={` shadow-md hover:scale-105 duration-500 py-2   rounded-lg ${style}`}
+              className={` shadow-md hover:scale-105 duration-500 py-2 flex flex-col  justify-between items-center  rounded-lg ${style}`}
             >
-              <img src={src}  alt="Logo" className="w-20 my-auto mx-auto " />
-              <p className="  ">{title}</p>
+              <img src={src}  alt="Logo" className="w-20" />
+              <p className="">{title}</p>
             </div>
           ))}
         </div>
