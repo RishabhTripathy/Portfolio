@@ -25,7 +25,7 @@ export const Work = () => {
           </motion.p>
         </div>
         <ul className="">
-          <motion.li
+ <motion.li
             initial={{
               opacity: 0,
             }}
@@ -39,11 +39,11 @@ export const Work = () => {
             className="flex flex-col tracking-widest  gap-2"
           >
             <span className="text-xl font-bold underline underline-offset-2">
-             Web Developer
+             Frontend Developer
             </span>
-            <span className="font font-semibold"> Criss Cross Lab</span>
+            <span className="font font-semibold">Beam & Words</span>
             <span className="text-slate-400 text-md">
-              December 2022 - Present
+              April 2022 - Present
             </span>
           </motion.li>
           <br />
@@ -58,14 +58,34 @@ export const Work = () => {
               delay: 0.5,
               duration: 1,
             }}
-            className="flex flex-col gap-2 tracking-widest"
+            className="flex flex-col tracking-widest  gap-2"
           >
             <span className="text-xl font-bold underline underline-offset-2">
-              Internship Trainee
+             Web Developer
             </span>
-            <span className="font font-semibold">Ducat </span>
+            <span className="font font-semibold"> Criss Cross Lab</span>
             <span className="text-slate-400 text-md">
-              May 2022 - December 2022 (7 months)
+              December 2022 - March 2024
+            </span>
+          </motion.li>
+          <br />
+          <motion.li
+            initial={{
+              opacity: 0,
+            }}
+            whileInView={{
+              opacity: 1,
+            }}
+            transition={{
+              delay: 0.7,
+              duration: 1,
+            }}
+            className="flex flex-col gap-2 tracking-widest"
+          >
+            <span className="text-xl font-bold underline underline-offset-2">Web Developer</span>
+            <span className="font font-semibold">36Octa Elements Pvt. Ltd</span>
+            <span className="text-slate-400 text-md">
+              February 2022 - December 2022
             </span>
           </motion.li>
         </ul>
