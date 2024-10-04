@@ -112,7 +112,7 @@ const Contact = () => {
             transition={{
               delay: 0.2,
             }}
-            className="text-4xl font-jost font-bold inline border-b-4 border-gray-500"
+            className="text-3xl font-jost font-bold inline border-b-4 border-gray-300 uppercase bg-gradient-to-r from-cyan-500 to-blue-600 bg-clip-text text-transparent"
           >
             Contact
           </motion.p>

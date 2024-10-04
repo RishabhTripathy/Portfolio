@@ -1,18 +1,20 @@
 import React from "react";
-import html from "../images/html.png";
-import js from "../images/js.png";
-import css from "../images/css.png";
-import react from "../images/react.png";
-import jq from "../images/jq.png";
-import bs from "../images/bs.png";
-import gh from "../images/gh.png";
-import ps from "../images/ps.png";
-import tc from "../images/tc.png";
-import nj from "../images/nj.png";
-import ts from "../images/ts.png";
-import sf from "../images/sf.png";
-import fm from "../images/Framer.png";
-import wix from "../images/wix.png";
+import html from "../assets/skills/html.png";
+import js from "../assets/skills/js.png";
+import css from "../assets/skills/css.png";
+import react from "../assets/skills/react.png";
+import jq from "../assets/skills/jq.png";
+import bs from "../assets/skills/bs.png";
+import gh from "../assets/skills/gh.png";
+import ps from "../assets/skills/ps.png";
+import tc from "../assets/skills/tc.png";
+import nj from "../assets/skills/nj.png";
+import ts from "../assets/skills/ts.png";
+import sf from "../assets/skills/sf.png";
+import fm from "../assets/skills/Framer.png";
+import wix from "../assets/skills/wix.png";
+import wordpress from "../assets/skills/wordpress.png";
+import strapi from "../assets/skills/strapi.png";
 import { motion } from "framer-motion";
 const Skills = () => {
   const techs = [
@@ -20,91 +22,138 @@ const Skills = () => {
       id: 1,
       src: html,
       title: "HTML",
-      style: "shadow-orange-500 ",
+      invert: false,
+
+      style: "shadow-orange-500 "
     },
     {
       id: 2,
       src: css,
       title: "CSS",
-      style: "shadow-blue-500 ",
+      invert: false,
+
+      style: "shadow-blue-500 "
     },
     {
       id: 3,
       src: js,
       title: "JavaScript",
-      style: "shadow-yellow-500 ",
+      invert: false,
+
+      style: "shadow-yellow-500 "
     },
     {
       id: 4,
       src: react,
       title: "React",
-      style: "shadow-blue-600 ",
+      invert: false,
+
+      style: "shadow-blue-600 "
     },
     {
       id: 5,
       src: tc,
       title: "Tailwind",
-      style: "shadow-sky-400  ",
+      invert: false,
+
+      style: "shadow-sky-400  "
     },
     {
-      id:6,
+      id: 6,
       src: bs,
       title: "BootStrap",
-      style: "shadow-purple-500 ",
+      invert: false,
+
+      style: "shadow-purple-500 "
     },
     {
       id: 7,
       src: jq,
       title: "jQuery",
-      style: "shadow-orange-500 ",
+      invert: false,
+
+      style: "shadow-orange-500 "
     },
     {
       id: 8,
       src: ps,
       title: "PhotoShop",
-      style: "shadow-blue-600 ",
+      invert: false,
+
+      style: "shadow-blue-600 "
     },
     {
       id: 9,
       src: gh,
       title: "GitHub",
-      style: "shadow-gray-400 ",
+      invert: false,
+
+      style: "shadow-gray-400 "
     },
     {
       id: 10,
       src: nj,
       title: "Next Js",
-      style: "shadow-purple-600 text-black font-bold bg-slate-100 ",
+      invert: false,
+
+      style: "shadow-purple-600 "
     },
     {
       id: 11,
       src: ts,
       title: "Type Script",
-      style: "shadow-blue-600 ",
+      invert: false,
+
+      style: "shadow-blue-600 "
     },
     {
       id: 12,
       src: sf,
       title: "Shopify",
-      style: "shadow-green-400  ",
+      invert: false,
+
+      style: "shadow-green-400  "
     },
     {
       id: 13,
       src: fm,
       title: "Framer Motion",
-      style: "shadow-green-400 font-bold  text-black bg-slate-100 ",
-    },
-    {
-      id: 15,
-      src: wix,
-      title: "Wix",
-      style: "shadow-green-400 font-bold text-black bg-slate-100",
+
+
+      style: "shadow-green-400  ",
+      invert: true
     },
     {
       id: 14,
       src: react,
       title: "React Native",
-      style: "shadow-green-400 " ,
+      invert: false,
+
+      style: "shadow-green-400 "
+    },
+    {
+      id: 15,
+      src: wix,
+      title: "Wix",
+      invert: true,
+
+      style: "shadow-orange-400   "
+    },
+    {
+      id: 16,
+      src: wordpress,
+      title: "Wordpress",
+      invert: false,
+
+      style: "shadow-blue-400  "
+    },
+    {
+      id: 17,
+      src: strapi,
+      title: "Strapi",
+      invert: false,
+
+      style: "shadow-purple-600 "
     }
   ];
   return (
@@ -112,33 +161,35 @@ const Skills = () => {
       name="skills"
       className="bg-gradient-to-b px-8  from-black to-gray-800 w-full h-full "
     >
-      <div className=" max-w-screen-lg pt-16 md:pt-32 mx-auto  flex flex-col justify-center h-full w-full  text-white ">
+      <div className=" max-w-screen-lg  pt-16 md:pt-32 mx-auto  flex flex-col justify-center h-full w-full  text-white ">
         <div className="">
           <motion.p
             initial={{
-              opacity: 0,
+              opacity: 0
             }}
             whileInView={{
-              opacity: 1,
+              opacity: 1
             }}
             transition={{
-              delay: 0.2,
+              delay: 0.2
             }}
-            className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline "
+            className="text-3xl uppercase font-bold border-b-4 border-gray-300 p-2  inline bg-gradient-to-r from-cyan-500 to-blue-600 bg-clip-text text-transparent"
           >
             My Skills
           </motion.p>
-          <p className=" py-8 ">
-            These are the technologies I've worked with.
-          </p>
+
         </div>
-        <div className=" w-full grid grid-cols-2 md:grid-cols-3   gap-6 text-center  py-4 px-6 sm:px-0    ">
-          {techs.map(({ id, src, title, style }) => (
+        <div className=" w-full grid grid-cols-2 md:grid-cols-3 mt-10  gap-6 text-center  py-4 px-6 sm:px-0    ">
+          {techs.map(({ id, src, title, style,invert }) => (
             <div
               key={id}
               className={` shadow-md hover:scale-105 duration-500 py-2 flex flex-col  justify-between items-center  rounded-lg ${style}`}
             >
-              <img src={src}  alt="Logo" className="w-20" />
+              <img
+                src={src}
+                alt="Logo"
+                className={`w-1/2 h-20 aspect-square  mb-4 object-contain filter ${invert ? "invert" : ""}`}
+              />
               <p className="">{title}</p>
             </div>
           ))}

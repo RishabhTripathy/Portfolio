@@ -1,7 +1,7 @@
-import React from "react";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 import { motion } from "framer-motion";
+import { Typewriter } from "react-simple-typewriter";
 
 const Home = () => {
   return (
@@ -9,54 +9,68 @@ const Home = () => {
       name="home"
       className="h-full w-full bg-gradient-to-b from-black to-gray-800  "
     >
-      <div className="max-w-screen-lg mx-auto  flex flex-col items-center justify-center h-full px-8 md:px-4 md:flex-row ">
+      <div className="max-w-screen-lg mx-auto  grid md:grid-cols-2  lg:pt-0 items-center  h-full px-8 md:px-4 grid-cols-1 ">
         <motion.div
           initial={{
-            x: -50,
+            x: -50
           }}
           animate={{
-            x: 0,
+            x: 0
           }}
           transition={{
             delay: 0.2,
             type: "spring",
             stiffness: 100,
-            damping: 50,
+            damping: 50
           }}
-          className=" flex  flex-col md:mt-16 mt-32  md:mx-0 "
+          className=" flex  flex-col lg:order-first order-last mt-16   md:mx-0 "
         >
           <motion.h2
             initial={{
-              opacity: 0,
+              opacity: 0
             }}
             whileInView={{
-              opacity: 1,
+              opacity: 1
             }}
             transition={{
-              delay: 0.2,
+              delay: 0.2
             }}
-            className="text-3xl font-jost sm:text-7xl text-white font-bold "
+            className="text-3xl font-jost  sm:text-6xl  text-white font-bold "
           >
-            I'm a Frontend Developer
+            Hi, I am Rishabh <br />
+            <span className="bg-gradient-to-r from-cyan-500 to-blue-600 bg-clip-text text-transparent">
+              {" "}
+              <Typewriter
+                words={["Web Developer", "App Developer"]}
+                loop={false}
+                cursor
+                cursorColor="#06b6d4"
+                cursorStyle="|"
+                typeSpeed={80}
+                deleteSpeed={40}
+                delaySpeed={1000}
+              />
+            </span>
           </motion.h2>
           <motion.p
             initial={{
-              opacity: 0,
+              opacity: 0
             }}
             whileInView={{
-              opacity: 1,
+              opacity: 1
             }}
             transition={{
               delay: 0.3,
-              duration: 1,
+              duration: 1
             }}
             className="text-gray-500 py-8 text-lg max-w-md "
           >
-            I am seeking a challenging opportunity in an environment where I
-            will be able to utilize my strong organizational skills and ability
-            to work well with people. Ready to work for an organization which
-            provides me the opportunity to grow my skills and knowledge 
-             along with the organization.
+            I thrive on building innovative websites that merge aesthetics with
+            functionality. My approach combines creativity and technical
+            expertise to provide you with solutions that elevate your brand.
+            Whether you're seeking to enhance your online presence or launch a
+            new project, I’m committed to delivering exceptional results that
+            leave a lasting impression.
           </motion.p>
           <div>
             <Link
@@ -74,23 +88,23 @@ const Home = () => {
         </motion.div>
         <motion.div
           initial={{
-            x: 50,
+            x: 50
           }}
           animate={{
-            x: 0,
+            x: 0
           }}
           transition={{
             delay: 0.2,
             type: "spring",
             stiffness: 100,
-            damping: 50,
+            damping: 50
           }}
           className="md:pt-32 pt-16 "
         >
           <img
             src="../assets/me.jpg"
             alt="My Pic"
-            className="rounded-2xl   md:mx-auto md:w-full "
+            className="rounded-2xl  mt-8 lg:mt-0  md:mx-auto md:w-full "
           />
         </motion.div>
       </div>

@@ -19,7 +19,7 @@ const About = () => {
             transition={{
               delay: 0.2,
             }}
-            className=" text font-jost text-4xl font-bold inline border-b-4 border-gray-500 "
+            className=" text font-jost text-3xl uppercase font-bold inline border-b-4 border-gray-300 bg-gradient-to-r from-cyan-500 to-blue-600 bg-clip-text text-transparent"
           >
             About
           </motion.p>

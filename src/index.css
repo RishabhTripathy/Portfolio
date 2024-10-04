@@ -10,8 +10,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-    html{
+@layer base {
+    html {
         font-family: 'Raleway', sans-serif;
     }
+}
+
+.card.image-full:before {
+    opacity: 0.60 !important;
+
+
 }

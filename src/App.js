@@ -10,7 +10,7 @@ import { Work } from "./Components/Work";
 
 function App() {
   return (
-    <div>
+    <div className="h-full  w-screen">
       <Navbar />
       <Home />
       <About/>
