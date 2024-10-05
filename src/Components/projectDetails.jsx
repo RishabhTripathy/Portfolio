@@ -3,17 +3,18 @@ import React, { useRef } from "react";
 import { FiArrowRight } from "react-icons/fi";
 
 export const HoverImageLinks = ({ project }) => {
+  console.log(project.reverse());
+  const reversedProject = project.reverse();
   return (
     <section className="bg-neutral-950 p-4 md:p-8">
       <div className="mx-auto max-w-5xl">
-        {project.reverse().map((item, id) => (
+        {reversedProject.map((item, id) => (
           <Link
             key={id}
             heading={item.title}
             subheading={item.desc}
             imgSrc={item.img}
             href={item.lnk}
-            
           />
         ))}
       </div>
