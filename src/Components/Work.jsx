@@ -5,7 +5,7 @@ export const Work = () => {
   return (
     <div
       name="Experience"
-      className=" w-full h-full px-8 pt-16 md:pt-32  bg-gradient-to-b from-black to-gray-800 text-white "
+      className=" w-full h-full px-8 pt-16 md:pt-32   text-white "
     >
       <div className="max-w-screen-lg  mx-auto flex flex-col justify-center w-full h-full ">
         <div className="pb-8 ">

@@ -97,7 +97,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full px-8 h-full py-16 md:py-32 bg-gradient-to-b from-gray-800 to-black  text-white"
+      className="w-full px-8 h-full py-16 md:py-32  text-white"
     >
       <ToastContainer />
       <div className="flex flex-col  justify-center max-w-screen-lg mx-auto h-full">

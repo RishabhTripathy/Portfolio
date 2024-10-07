@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-full w-full bg-gradient-to-b from-black to-gray-800  "
+      className="h-full w-full  "
     >
       <div className="max-w-screen-lg mx-auto  grid md:grid-cols-2  lg:pt-0 items-center  h-full px-8 md:px-4 grid-cols-1 ">
         <motion.div
@@ -102,7 +102,7 @@ const Home = () => {
           className="md:pt-32 pt-16 "
         >
           <img
-            src="../assets/me.jpg"
+            src="../assets/mainIconsdark.svg"
             alt="My Pic"
             className="rounded-2xl  mt-8 lg:mt-0  md:mx-auto md:w-full "
           />

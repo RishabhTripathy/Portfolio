@@ -54,7 +54,7 @@ const SocialLinks = () => {
           <li
             key={id}
             className={
-              "flex justify-between items-center bg-opacity-80 bg-gray-900 w-40 h-14 px-4 ml-[-115px] md:ml-[-100px] hover:rounded-md duration-300 hover:ml-[-10px] " +
+              "flex justify-between items-center bg-opacity-80 bg-gray-900 border-r border-blue-600 shadow-md shadow-blue-600   w-40 h-14 px-4 ml-[-115px] md:ml-[-100px] hover:rounded-md duration-300 hover:ml-[-10px] " +
               " " +
               style
             }
