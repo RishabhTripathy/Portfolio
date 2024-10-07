@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7484b57e.css",
+    "main.js": "/static/js/main.23de614c.js",
+    "static/media/project10.png": "/static/media/project10.99d39d8d3bbc5c26b8ed.png",
+    "static/media/project8.png": "/static/media/project8.7eb25ccfbae7499d5817.png",
+    "static/media/project12.png": "/static/media/project12.db406af3084557a09d84.png",
+    "static/media/project11.png": "/static/media/project11.8f19785ab651712928f3.png",
+    "static/media/project9.png": "/static/media/project9.51c74a50ac69eed9513e.png",
+    "static/media/project6.png": "/static/media/project6.d2b780b5d012d59919c1.png",
+    "static/media/wordpress.png": "/static/media/wordpress.d726663f554cba5eb621.png",
+    "static/media/project5.png": "/static/media/project5.c20db9e22e9b45488c95.png",
+    "static/media/project3.png": "/static/media/project3.29634bb0adc7189515ca.png",
+    "static/media/project1.png": "/static/media/project1.0efd516c3ec4ceb71e82.png",
+    "static/media/project4.png": "/static/media/project4.a84b84905d1ed1fbae60.png",
+    "static/media/project2.png": "/static/media/project2.830409ff1dbb46bd3d9c.png",
+    "static/media/react.png": "/static/media/react.2f2532db663fd5ec5f95.png",
+    "static/media/project7.png": "/static/media/project7.5648d1b2b0e0d071df5a.png",
+    "static/media/css.png": "/static/media/css.de45bc2134d481f9057c.png",
+    "static/media/html.png": "/static/media/html.0ff377620db6060a5517.png",
+    "static/media/bs.png": "/static/media/bs.9cc938d1c1c7ae7297ea.png",
+    "static/media/js.png": "/static/media/js.a936d6e165c05188ff75.png",
+    "static/media/sf.png": "/static/media/sf.0d3ce29cd5037c152471.png",
+    "static/media/nj.png": "/static/media/nj.ab8293c95faf26dc5e3e.png",
+    "static/media/jq.png": "/static/media/jq.e720f2aa92589b35298e.png",
+    "static/media/Framer.png": "/static/media/Framer.31fecca8108ba9dfe9e4.png",
+    "static/media/gh.png": "/static/media/gh.a5527b5c02e754fc4a6d.png",
+    "static/media/wix.png": "/static/media/wix.3b439b5105a003fc8900.png",
+    "static/media/strapi.png": "/static/media/strapi.62ce45030a7aa5490faf.png",
+    "static/media/ts.png": "/static/media/ts.bb13ebd9561a6ee645c2.png",
+    "static/media/ps.png": "/static/media/ps.1c34140e78151550327c.png",
+    "index.html": "/index.html",
+    "main.7484b57e.css.map": "/static/css/main.7484b57e.css.map",
+    "main.23de614c.js.map": "/static/js/main.23de614c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7484b57e.css",
+    "static/js/main.23de614c.js"
+  ]
+}
