@@ -13,6 +13,7 @@ import p9 from "../assets/projects/project9.png";
 import p10 from "../assets/projects/project10.png";
 import p11 from "../assets/projects/project11.png";
 import p12 from "../assets/projects/project12.png";
+import p13 from "../assets/projects/project13.png";
 import { HoverImageLinks } from "./projectDetails";
 
 export default function Projects() {
@@ -100,7 +101,14 @@ export default function Projects() {
       lnk: "https://moonshotmedia.in/",
       title: "Moonshot Media",
       desc: "Html, Css, Javascript, React, Tailwind Css, Framer Motion, Strapi etc"
-    }
+    },
+    {
+      id: 13,
+      img: p13,
+      lnk: "https://www.flychicken.in/",
+      title: "Fly Chicken India",
+      desc: "Html, Css, Javascript, Webflow"
+    },
   ];
 
   return (
