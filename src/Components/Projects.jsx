@@ -14,6 +14,11 @@ import p10 from "../assets/projects/project10.png";
 import p11 from "../assets/projects/project11.png";
 import p12 from "../assets/projects/project12.png";
 import p13 from "../assets/projects/project13.png";
+import p14 from "../assets/projects/project14.png";
+import p15 from "../assets/projects/project15.png";
+import p16 from "../assets/projects/project16.png";
+import p17 from "../assets/projects/project17.png";
+import p18 from "../assets/projects/project18.png";
 import { HoverImageLinks } from "./projectDetails";
 
 export default function Projects() {
@@ -23,92 +28,184 @@ export default function Projects() {
       img: p1,
       lnk: "https://rishabhtripathymusic.vercel.app/",
       title: "My Artist Profile",
-      desc: "Html, Css, Javascript, Next js, Type script, Tailwind css, Framer Motion etc"
+      desc: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Framer Motion"
+      ]
     },
     {
       id: 2,
       img: p2,
       lnk: "https://www.pagodacenturion.com/",
       title: "Pagoda Centurion",
-      desc: "Html, Css, Javascript, Next js, Tailwind css, AOS etc"
+      desc: ["HTML", "CSS", "JavaScript", "Next.js", "Tailwind CSS", "AOS"]
     },
     {
       id: 3,
       img: p3,
       lnk: "https://justhomestay.in/",
       title: "Just Home Stay",
-      desc: "Html, Css, Javascript, Next js, Tailwind css, AOS etc"
+      desc: ["HTML", "CSS", "JavaScript", "Next.js", "Tailwind CSS", "AOS"]
     },
     {
       id: 4,
       img: p4,
       lnk: "https://scoreme.in/",
       title: "ScoreMe",
-      desc: "Html, Css, Javascript, Next js, Tailwind css etc"
+
+      desc: ["HTML", "CSS", "JavaScript", "Next.js", "Tailwind CSS"]
     },
     {
       id: 5,
       img: p5,
       lnk: "https://www.resurgentindia.com/",
       title: "Resurgent Legal",
-      desc: "Html, Css, Javascript, Next js, Tailwind css etc"
+      desc: ["HTML", "CSS", "JavaScript", "Next.js", "Tailwind CSS"]
     },
     {
       id: 6,
       img: p6,
       lnk: "https://theahomesmanali.com/",
       title: "The Thea Homes",
-      desc: "Html, Css, Javascript, Next js, Tailwind css, AOS etc"
+
+      desc: ["HTML", "CSS", "JavaScript", "Next.js", "Tailwind CSS", "AOS"]
     },
     {
       id: 7,
       img: p7,
       lnk: "https://gurugramplot.com/",
       title: "The Gurugram Plot",
-      desc: "Html, Css, Javascript, NocoDb, Next js, Tailwind css, AOS, NoCo Db, Api Integration etc"
+      desc: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "NocoDb",
+        "Next.js",
+        "Tailwind CSS",
+        "AOS",
+        "Swift API"
+      ]
     },
     {
       id: 8,
       img: p8,
       lnk: "https://www.reyarpgreen.com/",
       title: "REY ARP NIGERIA LIMITED",
-      desc: "Html, Css, Wix"
+      desc: ["HTML", "CSS", "Wix"]
     },
     {
       id: 9,
       img: p9,
       lnk: "https://moochuu.in/",
       title: "Moo Chuu India",
-      desc: "Html, Css, Shopify, Shopify Liquid etc"
+      desc: ["HTML", "CSS", "Shopify"]
     },
     {
       id: 10,
       img: p10,
       lnk: "https://abbyevents.in/",
       title: "Abby Events",
-      desc: "Html, Css, Javascript, Wordpress, Next js, Tailwind Css   etc"
+      desc: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Wordpress",
+        "Tailwind CSS",
+        "Next Js"
+      ]
     },
     {
       id: 11,
       img: p11,
       lnk: "https://suncitystudios.in/",
       title: "Suncity Studios",
-      desc: "Html, Css, Javascript, React, Tailwind Css, Framer Motion, Strapi etc"
+
+      desc: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Strapi"
+      ]
     },
     {
       id: 12,
       img: p12,
       lnk: "https://moonshotmedia.in/",
       title: "Moonshot Media",
-      desc: "Html, Css, Javascript, React, Tailwind Css, Framer Motion, Strapi etc"
+      desc: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Strapi"
+      ]
     },
     {
       id: 13,
       img: p13,
       lnk: "https://www.flychicken.in/",
       title: "Fly Chicken India",
-      desc: "Html, Css, Javascript, Webflow"
+      desc: ["HTML", "CSS", "JavaScript", "Webflow"]
     },
+    {
+      id: 14,
+      img: p14,
+      lnk: "https://terragrande.in/",
+      title: "Terra Grande by Eldeco",
+      desc: ["HTML", "CSS", "JavaScript", "Wordpress"]
+    },
+    {
+      id: 15,
+      img: p15,
+      lnk: "https://www.perona.com/",
+      title: "Perona",
+      desc: ["HTML", "CSS", "JavaScript", "Shopify"]
+    },
+    {
+      id: 16,
+      img: p16,
+      lnk: "https://akshitarattha.com/",
+      title: "Akshita Rattha",
+      desc: ["HTML", "CSS", "JavaScript", "Shopify"]
+    },
+    {
+      id: 17,
+      img: p17,
+      lnk: "https://weareogatu.com/",
+      title: "Ogatu",
+      desc: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Next Js",
+        "Tailwind Css",
+        "Framer Motion"
+      ]
+    },
+    {
+      id: 18,
+      img: p18,
+      lnk: "https://beamandwords.com/",
+      title: "Beam And Words",
+      desc: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Next Js",
+        "Tailwind Css",
+        "Framer Motion"
+      ]
+    }
   ];
 
   return (
@@ -173,9 +270,17 @@ export default function Projects() {
                 <h2 className="card-title justify-center group-hover:text-white duration-700 font-jost">
                   {item.title}
                 </h2>
-                <p className="text-sm group-hover:text-white duration-700">
-                  {item.desc}
-                </p>
+                <div className="grid grid-cols-3 gap-2 mt-2 group-hover:text-white duration-700">
+  {item.desc.map((skill, index) => (
+    <span
+      key={index}
+      className="px-3 py-1 text-sm font-semibold bg-blue-600 text-white rounded-full text-center"
+    >
+      {skill}
+    </span>
+  ))}
+</div>
+
                 <div className="card-actions justify-center mt-8">
                   <a
                     href={item.lnk}

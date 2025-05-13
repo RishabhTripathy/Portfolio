@@ -1,3 +1,4 @@
+import SmoothScroll from "./Animation/smoothscroll";
 import "./App.css";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
@@ -11,18 +12,20 @@ import { Work } from "./Components/Work";
 
 function App() {
   return (
-    <div className="h-full   w-screen">
-      <StarsCanvas/>
-      <Navbar />
-      <Home />
-      <About/>
+    <SmoothScroll>
+      <div className="h-full   w-screen">
+        <StarsCanvas />
+        <Navbar />
+        <Home />
+        <About />
 
-      <Skills/>
-      <Projects/>
-      <Work/>
-      <Contact/>
-      <SocialLinks />
-    </div>
+        <Skills />
+        <Projects />
+        <Work />
+        <Contact />
+        <SocialLinks />
+      </div>
+    </SmoothScroll>
   );
 }
 

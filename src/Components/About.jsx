@@ -35,7 +35,7 @@ const About = () => {
             delay: 0.3,
             duration: 1,
           }}
-          className="text-xl mt-10 "
+          className=" mt-10 "
         >
           Hello there! I’m a Front-end Developer from Raipur, Chhattisgarh,
           India. Since my youngest age I have been passionate about design and

@@ -173,7 +173,7 @@ const Skills = () => {
             transition={{
               delay: 0.2
             }}
-            className="text-3xl uppercase font-bold border-b-4 border-gray-300 p-2  inline bg-gradient-to-r from-cyan-500 to-blue-600 bg-clip-text text-transparent"
+            className="text-3xl uppercase font-bold  font-jost border-b-4 border-gray-300 p-2  inline bg-gradient-to-r from-cyan-500 to-blue-600 bg-clip-text text-transparent"
           >
             My Skills
           </motion.p>

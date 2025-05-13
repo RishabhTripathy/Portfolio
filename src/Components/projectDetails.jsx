@@ -12,7 +12,7 @@ export const HoverImageLinks = ({ project }) => {
           <Link
             key={id}
             heading={item.title}
-            subheading={item.desc}
+            subheading={item.desc.join(", ")}
             imgSrc={item.img}
             href={item.lnk}
           />

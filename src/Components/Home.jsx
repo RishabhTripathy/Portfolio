@@ -63,7 +63,7 @@ const Home = () => {
               delay: 0.3,
               duration: 1
             }}
-            className="text-gray-500 py-8 text-lg max-w-md "
+            className="text-gray-300 py-8  max-w-md "
           >
             I thrive on building innovative websites that merge aesthetics with
             functionality. My approach combines creativity and technical
